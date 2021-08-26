@@ -1,0 +1,57 @@
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: #f7fafd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1140px;
+  height: 60px;
+  margin: 46px auto 0;
+}
+.navbar__image {
+  margin-left: 18px;
+  margin-right: 4rem;
+}
+.navbar__button {
+  border: none;
+  margin-left: auto;
+  border-radius: 50px;
+  width: 210px;
+  height: 60px;
+  background-color: white;
+}
+.navbar__navlinks {
+  list-style: none;
+  display: flex;
+}
+.navbar__navlinks__item {
+  margin: 20px;
+}
+.navbar__navlinks__item__link {
+  text-decoration: none;
+  font-family: "Avenir", serif;
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1248px;
+}
+.hero__left__header {
+  font-family: "Helvetica", sans-serif;
+  font-size: 80px;
+}
+.hero__left__desc {
+  font-family: "Avenir", serif;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.css.map */
