@@ -50,16 +50,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    z-index: 0;
+
     margin: 25px 23px;
 
     &__image {
         position: relative;
-        right: 82px;        
+        right: 82px; 
+        z-index: 2;
     }
 
     &__content {
         position: relative;
         right: 53px;
+        z-index: 2;
+
     }
 
     &__header {
@@ -69,6 +74,7 @@ body {
         margin-bottom: 30px;
         margin-top: 25px;
         line-height: 31.2px;
+
     }
 
     &__desc {
@@ -168,42 +174,42 @@ body {
         position: absolute;
         top: 1841px;
         left: 528px;
-        z-index: -1;
+        z-index: 1;
     }
 
     &__squiggle2 {
         position: absolute;
         top: 1920px;
         left: 616px;
-        z-index: -1;
+        z-index: 1;
     }
 
     &__squiggle3 {
         position: absolute;
         top: 2068px;
         left: 1119px;
-        z-index: -1;
+        z-index: 1;
     }
 
     &__squiggle4 {
         position: absolute;
         top: 2312px;
         left: 675px;
-        z-index: -1;
+        z-index: 1;
     }
 
     &__squiggle5 {
         position: absolute;
         top: 2274px;
         left: 930px;
-        z-index: -1;
+        z-index: 1;
     }
 
     &__squiggle6 {
         position: absolute;
         top: 2565px;
         left: 1267px;
-        z-index: -1;
+        z-index: 1;
     }
 }
 
@@ -593,6 +599,7 @@ body {
         padding-left: 8px;
         font-size: 16px;
         letter-spacing: .1px;
+        
     }
 }
 
